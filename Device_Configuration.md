@@ -35,6 +35,18 @@ Max threads per block: 1024
 Max threads dimensions: (1024, 1024, 64)
 Max grid dimensions: (2147483647, 65535, 65535)https://developer.nvidia.com/cuda-gpus
 ```
+
+The os system is:
+
+```
+casablanca@casablanca-xps:~/Documents/projects/cuda/github/CUDA-examples$ lsb_release -a
+No LSB modules are available.
+Distributor ID: Ubuntu
+Description:    Ubuntu 22.04.3 LTS
+Release:        22.04
+Codename:       jammy
+```
+
 ### CUDA Compiler
 The command to determine the compiler used for the example is `nvcc --version`.
 
