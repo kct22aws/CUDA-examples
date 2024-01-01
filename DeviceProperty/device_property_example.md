@@ -27,3 +27,5 @@ and expect output like:
 Current Device ID: 0
 CUDA DEVICE ID that best matches the requirement: 0
 ```
+
+This is example is not often used nowadays, as it is very rare that you would have a GPU system with different GPU models. With the prevalence of GPU in public cloud vendors, you will find GPU instances to have same GPU models clustered together in one server. 
