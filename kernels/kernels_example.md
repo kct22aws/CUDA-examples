@@ -18,7 +18,7 @@ gpufunc<<<p, q>>>()
 ```
 Such function or kernell call needs to have `<<<p, q>>>` in the call, where
 
-p is number of blocks
+p is number of blocks\
 q is number of threads
 
 Blocks are the basic units that execute in parallel in a GPU program.
