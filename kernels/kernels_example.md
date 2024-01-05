@@ -22,3 +22,30 @@ p is number of blocks\
 q is number of threads
 
 Blocks are the basic units that execute in parallel in a GPU program.
+
+The source code for this exercise is [here](./kernel-demo.cu).
+
+## Instruction
+
+To run the source code, go to `kernel` directory:
+
+```
+nvcc -o kernel-demo kernel-demo.cu
+```
+
+Then in the same directory, run the executable:
+
+```
+./kernel-demo
+```
+
+and expect output such as this:
+
+```
+...
+-9997 + 99940009 = 99930012
+-9998 + 99960004 = 99950006
+-9999 + 99980001 = 99970002
+```
+
+
