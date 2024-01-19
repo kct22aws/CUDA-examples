@@ -36,16 +36,26 @@ While passing by pointer offers performance benefits, it's essential to manage m
 To run the source code, go to `kernel` directory, first compile the source code into an executable:
 
 ```
-nvcc -o add-example add-example.cu
+nvcc -o gpu-add gpu-add.cu
 ```
 
 Then in the same directory, run the executable:
 
 ```
-./add-example
+./gpu-add
 ```
 
 and expect output such as this:
 
-
-
+```
+0 + 0 = 0
+-1 + 1 = 0
+-2 + 4 = 2
+-3 + 9 = 6
+-4 + 16 = 12
+-5 + 25 = 20
+-6 + 36 = 30
+-7 + 49 = 42
+-8 + 64 = 56
+-9 + 81 = 72
+``````
