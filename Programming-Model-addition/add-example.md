@@ -15,7 +15,7 @@ This `cudaMalloc` function is applied to all the tensors involved in this exampl
 
 ### Kernel function taking on pointers as inputs
 
-Pointers are used as input arguments to kernel. Why do we pass by pointer to the kernel and not pass by value? there are these reasons:
+Pointers are used as input arguments to kernel. Why do we pass by pointer to the kernel and not pass by value? There are these reasons:
 
 In CUDA, when writing a kernel, it is common to pass parameters by pointer rather than by value for performance reasons. Here are a few reasons for this:
 
