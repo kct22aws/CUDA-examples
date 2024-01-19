@@ -1,5 +1,5 @@
 ## [Create a function for GPU to add two vectors](#intro)
-This example shows how to create a function that runs as a CUDA kernel in a GPU. There are several important point in this example. The source code for this exercise is [here](./add-example.cu).
+This example shows how to create a function that runs as a CUDA kernel in a GPU. There are several important point in this example. The source code for this exercise is [here](./gpu-add.cu).
 
 ## Explanation
 
