@@ -1,0 +1,2 @@
+## [Measuring time of execution](#intro)
+This example shows how to measure time it takes for a CUDA kernel to complete a job in a GPU. There are several important point in this example. The source code for this exercise is [here](./timing.cu).
