@@ -1,2 +1,3 @@
 ## [Measuring time of execution](#intro)
-This example shows how to measure time it takes for a CUDA kernel to complete a job in a GPU. There are several important point in this example. The source code for this exercise is [here](./timing.cu).
+This example shows how to measure the time taken by a CUDA kernel using events. 
+In CUDA, you can measure the time it takes to execute a CUDA kernel using the CUDA API functions for timing. The typical approach involves using the `cudaEvent_t` type to create events before and after the kernel execution, and then calculating the time difference between these events. The source code for this exercise is [here](./timing.cu).
