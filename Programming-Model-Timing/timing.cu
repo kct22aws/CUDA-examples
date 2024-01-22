@@ -2,7 +2,7 @@
 # include <iostream> 
 # include "../common/book.h"
 # include <cuda_runtime.h>
-#define N   10
+#define N   4096
 
 using namespace std;
 
@@ -26,7 +26,7 @@ int main( void ) {
     HANDLE_ERROR( cudaMalloc( &dev_b, N * sizeof(int) ) );
     HANDLE_ERROR( cudaMalloc( &dev_c, N * sizeof(int) ) );
 
-    // fill the arrays 'a' and 'b' on the CPU
+    // fill the arrays 'a' and 'b' on the CPUcreate a function that runs as
     for (int i=0; i<N; i++) {
         a[i] = -i;
         b[i] = i * i;
@@ -67,9 +67,9 @@ int main( void ) {
                               cudaMemcpyDeviceToHost ) );
 
     // display the results
-    for (int i=0; i<N; i++) {
-        printf( "%d + %d = %d\n", a[i], b[i], c[i] );
-    }
+    // for (int i=0; i<N; i++) {
+    //     printf( "%d + %d = %d\n", a[i], b[i], c[i] );
+    // }
 
     // free the memory allocated on the GPU
     HANDLE_ERROR( cudaFree( dev_a ) );
