@@ -33,7 +33,7 @@ While passing by pointer offers performance benefits, it's essential to manage m
 
 ## Instruction
 
-To run the source code, go to `kernel` directory, first compile the source code into an executable:
+To run the source code, go to `Programming-Model-addition` directory, first compile the source code into an executable:
 
 ```
 nvcc -o gpu-add gpu-add.cu
