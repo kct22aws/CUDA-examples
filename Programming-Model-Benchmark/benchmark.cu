@@ -1,7 +1,7 @@
-# include <stdio.h>
-# include <iostream> 
-# include "../common/book.h"
-# include <cuda_runtime.h>
+#include <stdio.h>
+#include <iostream> 
+#include "../common/book.h"
+#include <cuda_runtime.h>
 #include <vector>
 #include <algorithm>
 #include <numeric>
