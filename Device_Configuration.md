@@ -88,4 +88,4 @@ where
 P denotes number of blocks to run in parallel;  
 Q denotes number of threads in each block.
 
-The system in this example is from a laptop equipped with Nvidia RTX4060 GPU. Compute capability index for each GPU series is published [here](https://developer.nvidia.com/cuda-gpus). You may compare it to [your GPU output](#run).
+The system in this example is from a laptop equipped with Nvidia RTX4060 GPU. Compute capability index for each GPU series is published [here](https://developer.nvidia.com/cuda-gpus). You may compare it to your GPU output.
