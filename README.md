@@ -7,3 +7,5 @@ This repo contains examples for general CUDA programming in C. Examples will be 
 4. [Create a function for GPU to add two vectors](./Programming-Model-addition/add-example.md)
 5. [Measure kernel's execution time](./Programming-Model-Timing/timing.md)
 6. [Benchnark a kernel's execution time](./Programming-Model-Benchmark/benchmark.md)
+7. [CUDA program essentials - Synchronize all threads after kernel call](./Synchronize/sync.md)
+8. [Blocks configuration](./Blocks/use-blocks.md)
