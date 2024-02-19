@@ -8,4 +8,5 @@ This repo contains examples for general CUDA programming in C. Examples will be 
 5. [Measure kernel's execution time](./Programming-Model-Timing/timing.md)
 6. [Benchnark a kernel's execution time](./Programming-Model-Benchmark/benchmark.md)
 7. [CUDA program essentials - Synchronize all threads after kernel call](./Synchronize/sync.md)
-8. [Blocks configuration](./Blocks/use-blocks.md)
+8. [Set up blocks configuration](./Blocks/use-blocks.md)
+9. [Use mamory management to allocate memory for kernel](./Memory-for-kernel/mem-kernel.md)

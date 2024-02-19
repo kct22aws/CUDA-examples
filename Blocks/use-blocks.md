@@ -16,7 +16,7 @@ In CUDA programming, a GPU kernel is executed by a grid of thread blocks. Each t
 
 4. **Indexing:**
    - Threads are identified by their global and block indices.
-   - Developers use these indices to map computations to specific threads and blocks.
+   - These indices are used to map computations to specific threads and blocks.
 
 Understanding these relationships is essential for optimizing memory access patterns and ensuring efficient parallelization of tasks in CUDA programs. It allows developers to design algorithms that effectively leverage the parallel architecture of the GPU.
 
