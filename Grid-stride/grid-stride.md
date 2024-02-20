@@ -45,3 +45,7 @@ ___global__ myKernel(int N, float* x, float* y)
 ```
 
 In every iteration by this `for` loop, all threads in this grids are used to process consecutive elements. Then in the next iteration, a particluar thread then process the next element that's `stride` elements away from the current one.
+
+## Reference 
+
+[Grid stride loop](https://developer.nvidia.com/blog/cuda-pro-tip-write-flexible-kernels-grid-stride-loops/)
