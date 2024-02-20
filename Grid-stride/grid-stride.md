@@ -35,16 +35,15 @@ ___global__ myKernel(int N, float* x, float* y)
 {
     int idx = blockIdx.x * blockDim.x + threadIdx.x;    
     int stride = blockDim.x * gridDim.x;  
-    for (idx < N, i += stride)
+    for (int i = idx, i < N, i += stride)
     {
-        if (i < N)
             y[i] = x[i] + y[i]
     }
 
 }
 ```
 
-In every iteration by this `for` loop, all threads in this grids are used to process consecutive elements. Then in the next iteration, a particluar thread then process the next element that's `stride` elements away from the current one.
+In every iteration by this `for` loop, all threads in this grids are used to process consecutive elements. Then in the next iteration, i is incremented by `stride`, and this thread then process the next element that's `stride` elements away from the current one.
 
 ## Reference 
 
