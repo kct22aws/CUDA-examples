@@ -1,6 +1,6 @@
 ## Use grid-stride loop to manipulate large or arbitrary-size array
 
-A classic use of CUDA kernel is to parallelizing a loop. A premise to the efficient parallelization is to launch enough threads to fully utilize the GPU. Typically, we want to launch one thread per data element. As an example pattern is a typical monolithic kernel:
+A classic use of CUDA kernel is to parallelizing a loop. A premise to the efficient parallelization is to launch enough threads to fully utilize the GPU. Typically, we want to launch one thread per data element. As an example pattern, here is a typical monolithic kernel:
 
 ```
 ___global__ myKernel(int N, float* x, float* y)
