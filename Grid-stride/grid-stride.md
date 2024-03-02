@@ -23,7 +23,7 @@ It turns out the way to calculate the stride is very simple:
 where `threads/grid` is how much threads you have to work with.
 
 Using available index that reflects the formula above:
-// do something
+
 ```
 blockDim.x * gridDim.x = stride
 ```
