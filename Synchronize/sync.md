@@ -37,7 +37,7 @@ if (error != cudaSuccess) {
 ```
 cudaEvent_t start, stop;
 cudaEventCreate(&start);
-cudaEventCreate(&stop);
+cudaEventCreate(&stop);threads_per_block
 
 // Record start time
 cudaEventRecord(start);
